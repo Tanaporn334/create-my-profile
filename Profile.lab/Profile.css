@@ -1,0 +1,198 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 1.4;
+    }
+    
+    #header {
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+    }
+    
+    #underline {
+        border-bottom-style: solid;
+        border-bottom-color: rgb(255, 255, 255);
+    }
+    
+    #main {
+        float: right;
+        width: 74.5%;
+    }
+    
+    #Left {
+        float: left;
+        width: 25%;
+    }
+    
+    #Right {
+        float: right;
+        width: 39%;
+    }
+    
+    #sidebar {
+        float: right;
+        width: 29%;
+    }
+    
+    .illustration {
+        float: left;
+        width: 10%;
+    }
+    
+    .clr {
+        clear: both;
+    }
+    
+    #footer {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+    }
+    
+    .text-center {
+        display: block;
+        text-align: center;
+    }
+    
+    .card {
+        border: 1px solid rgb(36, 37, 41);
+        background: #565758;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .write {
+        border: 1px solid rgb(36, 37, 41);
+        background: #dededf;
+        width: 60%;
+        padding: 15px 0px 10px;
+        margin-bottom: 10px;
+    }
+    
+    .post {
+        border: 1px solid rgb(36, 37, 41);
+        background: #dededf;
+        width: 68%;
+        padding: 0px 0px 105px;
+        margin: 30px 150px;
+        margin-bottom: 10px;
+    }
+    
+    .content {
+        border: 1px solid rgb(36, 37, 41);
+        background: #a3a3a5;
+        width: 97%;
+        padding: 10px 0px 100px;
+        margin: 10px 10px;
+        margin-bottom: -95px;
+    }
+    
+    .try {
+        background-image: url("images/cover.jpg");
+        text-align: center;
+        padding: 200px;
+        margin-bottom: -120px;
+    }
+    
+    #menu {
+        border: 1px solid rgb(51, 52, 56);
+        background: rgb(51, 52, 56);
+        padding: 14px;
+        margin-bottom: 0px;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .content-body {
+        margin: 0px 24px;
+    }
+    
+    .content-body .columns-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 13px;
+    }
+    
+    .columns-img img {
+        width: 47%;
+        height: 47%;
+        transition: all 0.5s ease-in;
+    }
+    
+    .profile-img img {
+        width: 15%;
+    }
+    
+    .miniature-img img {
+        width: 5%;
+        margin: 0px 150px;
+    }
+    
+    .distance {
+        line-height: 0.2;
+    }
+    
+    .content-post {
+        margin: 100px 0px -95px 190px;
+    }
+    
+    .content-post .post-img {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    
+    .post-img img {
+        width: 60%;
+        transition: all 0.5s ease-in;
+    }
+    
+    .photo-all {
+        margin: 0px 20px 0px 20px;
+    }
+    
+    .photo-all .all-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 13px;
+    }
+    
+    .all-img img {
+        width: 31%;
+        transition: all 0.5s ease-in;
+    }
+    
+    .video-all {
+        margin: 10px 30px 10px 30px;
+    }
+    
+    .video-all .all-video {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .all-video video {
+        width: 48%;
+        transition: all 0.5s ease-in;
+    }
